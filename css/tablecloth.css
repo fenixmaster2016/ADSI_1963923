@@ -1,0 +1,27 @@
+.Tablecloth table, td{
+	font:100% Arial, Helvetica, sans-serif; 
+}
+.Tablecloth table{width:100%;border-collapse:collapse;margin:1em 0;}
+.Tablecloth th, .Tablecloth td{text-align:left;padding:.5em;border:1px solid #fff;}
+.Tablecloth th{
+	background: #328aa4 url('https://cimm-adsi.github.io/Anuncios/images/tr_back.gif') repeat-x;
+	color: #fff;
+	text-align: center;
+}
+.Tablecloth td{background:#e5f1f4;}
+
+/* tablecloth styles */
+
+.Tablecloth tr.even td{background:#e5f1f4;}
+.Tablecloth tr.odd td{background:#f8fbfc;}
+
+.Tablecloth th.over, .Tablecloth tr.even th.over, .Tablecloth tr.odd th.over{background:#4a98af;}
+.Tablecloth th.down, .Tablecloth tr.even th.down, .Tablecloth tr.odd th.down{background:#bce774;}
+.Tablecloth th.selected, .Tablecloth tr.even th.selected, .Tablecloth tr.odd th.selected{}
+
+.Tablecloth td.over, .Tablecloth tr.even td.over, .Tablecloth tr.odd td.over{background:#ecfbd4;}
+.Tablecloth td.down, .Tablecloth tr.even td.down, .Tablecloth tr.odd td.down{background:#bce774;color:#fff;}
+.Tablecloth td.selected, .Tablecloth tr.even td.selected, .Tablecloth tr.odd td.selected{background:#bce774;color:#555;}
+
+/* use this if you want to apply different styling to empty table cells*/
+.Tablecloth td.empty, .Tablecloth tr.odd td.empty, .Tablecloth tr.even td.empty{background:#fff;}
