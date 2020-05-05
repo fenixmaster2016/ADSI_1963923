@@ -40,7 +40,7 @@ small{
 .nombre_tutor{
 	text-align:center;
 	color:#FFF;
-	background-image: url('https://cimm-adsi.github.io/lms/images/elementos/bg_button_tutor.png');
+	background-image: url('../images/elementos/bg_button_tutor.png');
 	background-repeat: no-repeat;
 	display:block;
 	width:190px;
